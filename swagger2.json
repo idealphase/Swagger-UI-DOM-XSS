@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/idealphase/Swagger-UI-DOM-XSS/main/swagger2.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/idealphase/Swagger-UI-DOM-XSS/main/swagger2.yaml",
+            "name": "DOM XSS"
+        }
+    ]
+}
